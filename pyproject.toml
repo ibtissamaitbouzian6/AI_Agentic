@@ -7,7 +7,24 @@ authors = [
     { name = "Hafid Benmoussa" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ddgs>=9.16.1",
+    "faiss-cpu>=1.15.1",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.5",
+    "langchain>=1.0",
+    "langchain-community>=0.4.2",
+    "langchain-experimental>=0.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.3",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.19",
+    "langgraph-checkpoint-sqlite>=3.1.3",
+    "numpy>=2.5.4",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "sympy>=1.14.0",
+]
 
 [project.scripts]
 ai-agentic = "ai_agentic:main"

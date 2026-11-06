@@ -1,0 +1,10 @@
+Generated Python code:
+import sympy as sp
+
+x = sp.symbols('x')
+poly = 6*x**2 + 11*x - 6
+roots = sp.solve(poly, x)
+print('Roots:', roots)
+
+Execution result:
+Roots: [-11/12 + sqrt(265)/12, -sqrt(265)/12 - 11/12]
